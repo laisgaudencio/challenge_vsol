@@ -31,15 +31,16 @@ public class CategoryPage extends BasePage{
             buttonPolicts.click();
             driver.getPageSource().contains("POLITICS");
             buttonBusiness.click();
-          //  driver.getPageSource().contains("BUSINESS");
-           // buttonTech.click();
+            //commented because of bug 3
+            //driver.getPageSource().contains("BUSINESS");
+            // buttonTech.click();
             driver.getPageSource().contains("TECH");
             buttonScience.click();
             driver.getPageSource().contains("SCIENCE");
             buttonSports.click();
             driver.getPageSource().contains("SPORTS");
         }catch (Exception e ){
-            driver.getPageSource().contains("Message?");
+            driver.getPageSource().contains("Message?"); //bug 3
         }
 
     }

@@ -2,27 +2,49 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="28948" started-at="2020-02-02T00:56:45Z" finished-at="2020-02-02T00:57:14Z">
+  <suite name="Command line suite" duration-ms="32309" started-at="2020-02-02T01:32:17Z" finished-at="2020-02-02T01:32:49Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="28948" started-at="2020-02-02T00:56:45Z" finished-at="2020-02-02T00:57:14Z">
+    <test name="Command line test" duration-ms="32309" started-at="2020-02-02T01:32:17Z" finished-at="2020-02-02T01:32:49Z">
       <class name="steps.ChallengeChesseCakeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="setUp" is-config="true" duration-ms="14311" started-at="2020-02-02T00:56:45Z" finished-at="2020-02-02T00:56:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:steps.ChallengeChesseCakeTest@6cd8737]" name="setUp" is-config="true" duration-ms="15530" started-at="2020-02-02T01:32:17Z" finished-at="2020-02-02T01:32:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginSite()[pri:0, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="loginSite" duration-ms="1987" started-at="2020-02-02T00:56:59Z" finished-at="2020-02-02T00:57:01Z">
+        <test-method status="PASS" signature="loginSite()[pri:0, instance:steps.ChallengeChesseCakeTest@6cd8737]" name="loginSite" duration-ms="2318" started-at="2020-02-02T01:32:33Z" finished-at="2020-02-02T01:32:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="setUp" is-config="true" duration-ms="11490" started-at="2020-02-02T00:57:01Z" finished-at="2020-02-02T00:57:13Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:steps.ChallengeChesseCakeTest@6cd8737]" name="tearDown" is-config="true" duration-ms="1032" started-at="2020-02-02T01:32:35Z" finished-at="2020-02-02T01:32:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSite status=SUCCESS method=ChallengeChesseCakeTest.loginSite()[pri:0, instance:steps.ChallengeChesseCakeTest@6cd8737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:steps.ChallengeChesseCakeTest@6cd8737]" name="setUp" is-config="true" duration-ms="11169" started-at="2020-02-02T01:32:36Z" finished-at="2020-02-02T01:32:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="categorySite()[pri:1, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="categorySite" duration-ms="1091" started-at="2020-02-02T00:57:13Z" finished-at="2020-02-02T00:57:14Z">
+        <test-method status="PASS" signature="categorySite()[pri:1, instance:steps.ChallengeChesseCakeTest@6cd8737]" name="categorySite" duration-ms="1143" started-at="2020-02-02T01:32:47Z" finished-at="2020-02-02T01:32:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categorySite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:steps.ChallengeChesseCakeTest@6cd8737]" name="tearDown" is-config="true" duration-ms="1032" started-at="2020-02-02T01:32:48Z" finished-at="2020-02-02T01:32:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=categorySite status=SUCCESS method=ChallengeChesseCakeTest.categorySite()[pri:1, instance:steps.ChallengeChesseCakeTest@6cd8737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- steps.ChallengeChesseCakeTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

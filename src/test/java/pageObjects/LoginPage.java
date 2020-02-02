@@ -52,8 +52,7 @@ public class LoginPage extends BasePage{
         buttonSave.click();
         driver.getCurrentUrl().contains("POLITICS");
         driver.getCurrentUrl().contains("TECH");
-        //não está funcionando direito
-
+        //dont work cause bug 1
     }
 
 }

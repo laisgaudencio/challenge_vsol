@@ -33,11 +33,16 @@ Scenario: User logs in to the site
  Scenario: User accesses the site through mobile devices
  Given the user acess the site through a movel device 
  When  show the site 
- Then  the elements the site should not overlap
- And   must possible effect login in the site
+ Then  the site mus show the menu hamburguer with options of the site
 
  Scenario: Messages in the site 
  Given the user browse in the site 
- When  effect some action 
+ When  effect some action that be alert ou suport
  Then the site must messages of alert ou suport 
+
+ Scenario: Loaders of the site
+ Given the user browser in the site 
+ When  effect some action 
+ And   the server to take for reply
+ Then  the site must show loaders indicanting it is loading 
 
