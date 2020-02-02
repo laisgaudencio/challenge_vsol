@@ -1,0 +1,5 @@
+steps\BaseTest.class
+steps\ChallengeChesseCakeTest.class
+pageObjects\LoginPage.class
+pageObjects\BasePage.class
+pageObjects\CategoryPage.class

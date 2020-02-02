@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="28948" started-at="2020-02-02T00:56:45Z" finished-at="2020-02-02T00:57:14Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="28948" started-at="2020-02-02T00:56:45Z" finished-at="2020-02-02T00:57:14Z">
+      <class name="steps.ChallengeChesseCakeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="setUp" is-config="true" duration-ms="14311" started-at="2020-02-02T00:56:45Z" finished-at="2020-02-02T00:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginSite()[pri:0, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="loginSite" duration-ms="1987" started-at="2020-02-02T00:56:59Z" finished-at="2020-02-02T00:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="setUp" is-config="true" duration-ms="11490" started-at="2020-02-02T00:57:01Z" finished-at="2020-02-02T00:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="categorySite()[pri:1, instance:steps.ChallengeChesseCakeTest@6bf256fa]" name="categorySite" duration-ms="1091" started-at="2020-02-02T00:57:13Z" finished-at="2020-02-02T00:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorySite -->
+      </class> <!-- steps.ChallengeChesseCakeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
