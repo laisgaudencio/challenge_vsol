@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1abbe0dc-a450-4b52-b750-41caad9b1d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/challenge_cheeseCake.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/challenge_cheeseCake.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/CategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ChallengeChesseCakeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ChallengeChesseCakeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/challenge_cheesecake-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/challenge_cheesecake-1.0-SNAPSHOT.jar" afterDir="false" />
-    </list>
+    <list default="true" id="1abbe0dc-a450-4b52-b750-41caad9b1d00" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
