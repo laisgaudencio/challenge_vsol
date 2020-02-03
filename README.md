@@ -5,11 +5,11 @@ Automate cases test challenge Chesse Cake Lab
 The manual test are in the folder Manual testing
 
 <h4>Cases test:</h4>
-Test cases written with gherkin syntax
-<\br>
+Test cases written with gherkin syntax </br>
+
 <p><strong>Feature:</strong>The product consists of a news portal, that lists articles sorted by publication date on the homepage.</p>
 
-<strong>Scenario Outline:</strong> Articles by category </br>
+<strong>Scenario Outline:</strong> Articles by category
  *Given* the user accesses the category <category> </br>
  *Then*  the site must list all os articles related to the selected category </br>
  *Examples:* </br>
