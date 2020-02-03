@@ -5,7 +5,7 @@ Automate cases test challenge Chesse Cake Lab
 </br>
 
 <strong>Scenario Outline:</strong> Articles by category </br>
- *Given* the user accesses the category "<category>" </br>
+ *Given* the user accesses the category <category> </br>
  *Then*  the site must list all os articles related to the selected category </br>
  *Examples:* </br>
  | category  | </br>
@@ -17,7 +17,7 @@ Automate cases test challenge Chesse Cake Lab
  </br>
  
  <strong>Scenario Outline:</strong> Category empt </br>
- *Given* the user accesses the category "<category>"  </br>
+ *Given* the user accesses the category <category>  </br>
  *And*   the category no have articles  </br>
  *Then*  the site must display a  blank state message  </br>
  *Examples:* </br>
