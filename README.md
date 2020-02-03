@@ -1,8 +1,8 @@
 # challenge_cheeseCake
 Automate cases test challenge Chesse Cake Lab
 
-<h4>Manual testing:</h4></br>
-<p>The manual test are in the folder Manual testing</p></br>
+<h4>Manual testing:</h4>
+The manual test are in the folder Manual testing
 
 <h4>Cases test:</h4>
 <p>Test cases written with gherkin syntax</p>
