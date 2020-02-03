@@ -9,7 +9,7 @@ Test cases written with gherkin syntax </br>
 
 <p><strong>Feature:</strong>The product consists of a news portal, that lists articles sorted by publication date on the homepage.</p>
 
-<strong>Scenario Outline:</strong> Articles by category
+<strong>Scenario Outline:</strong> Articles by category </br>
  *Given* the user accesses the category <category> </br>
  *Then*  the site must list all os articles related to the selected category </br>
  *Examples:* </br>
