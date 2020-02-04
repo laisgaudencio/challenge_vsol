@@ -1,56 +1,17 @@
 # challenge_cheeseCake
 Automate cases test challenge Chesse Cake Lab
 
+<h4>Running the automate cases test:</h4>
+To run automation it is necessary:</br>
+- Maven 3.6.3 and JDK 1.8.0 instaled and configured</br>
+- Chorme version 79.0.3945.130</br>
+- Add in the folder challenge_cheesecake\drivers chrome drive version 79.0.3945.36 [Link](https://chromedriver.chromium.org/downloads)</br>
+- Run the runner.xml file with the comand mvn -s *path of the file runner.xml* clean install (import execute the comand in the same folder that contais pom.xml)</br>
+Path the runner.xml: challenge_cheesecake\src\test\java\runners
+
 <h4>Manual testing:</h4>
 The manual test are in the folder Manual testing
 
 <h4>Cases test:</h4>
-Test cases written with gherkin syntax 
-</br>
------------------------------------------------------------------------------------------------------------
-<p><strong>Feature:</strong>The product consists of a news portal, that lists articles sorted by publication date on the homepage.</p>
-
-<strong>Scenario Outline:</strong> Articles by category </br>
- *Given* the user accesses the category <category> </br>
- *Then*  the site must list all os articles related to the selected category </br>
- *Examples:* </br>
- | category  | </br>
- | POLITICS  | </br>
- | BUSINESS  | </br>
- | TECH      | </br>
- | SCIENCE   | </br>
- | SPORTS    | </br>
- 
- <strong>Scenario Outline:</strong> Category empt </br>
- *Given* the user accesses the category <category>  </br>
- *And*   the category no have articles  </br>
- *Then*  the site must display a  blank state message  </br>
- *Examples:* </br>
- | category  | </br>
- | POLITICS  | </br>
- | BUSINESS  | </br>
- | TECH      | </br>
- | SCIENCE   | </br>
- | SPORTS    | </br>
-
-<strong>Scenario:</strong> User logs in to the site </br>
- *Given* the user log in to the site witch your e-mail </br>
- *When*  acess your account </br>
- *Then*  the site must to allow the user selected one our more category of your preference </br>
- *And*   the site must direct user for the homepage </br>
- 
- <strong>Scenario:</strong> User accesses the site through mobile devices </br>
- *Given* the user acess the site through a movel device </br>
- *When*  show the site </br>
- *Then*  the site mus show the menu hamburguer with options of the site </br>
- 
- <strong>Scenario:</strong> Messages in the site </br>
- *Given* the user browse in the site </br>
- *When*  effect some action that be alert ou suport </br>
- *Then* the site must messages of alert ou suport </br>
- 
- <strong>Scenario:</strong> Loaders of the site </br>
- *Given* the user browser in the site </br>
- *When*  effect some action </br>
- *And*   the server to take for reply </br>
- *Then*  the site must show loaders indicanting it is loading </br>
+Test cases written with gherkin syntax </br>
+In the folder features</br>
