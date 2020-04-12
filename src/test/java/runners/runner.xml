@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite ChallengeChesseCake" verbose="1" >
+<suite name="Suite ChallengeVsol" verbose="1" >
     <test name="Smoke Test" >
         <classes>
-            <class name="steps.ChallengeChesseCakeTest" />
+            <class name="steps.ChallengeVsol" />
         </classes>
     </test>
 </suite>
